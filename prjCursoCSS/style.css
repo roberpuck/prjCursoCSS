@@ -48,7 +48,17 @@ div h2, div h3{
     height: 200px;
 /*     background-repeat: repeat-y;
     background-position: center bottom; */
-    background: #f00 url('clock.png') repeat-x center bottom ;
-    background-size: 100px 100px;
+    background: #f00 url('clock.png') repeat-x center bottom / 100px 100px;
+
     
+}
+
+.margen{
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: solid 1px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
 }
