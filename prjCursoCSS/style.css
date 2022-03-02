@@ -30,6 +30,25 @@ div h2, div h3{
 }
 */
 
-.color{
+/* .color{
     border: 3px black dotted;
+} */
+
+.color{
+    border-style: solid;
+    border-color: blue;
+    border-radius: 6px;
+    border-width: 2em;
+}
+
+#fondo{
+    background-color: rgba(255, 0, 0, 0.3);
+    /* opacity: 0.3; */
+    background-image: url('clock.png');
+    height: 200px;
+/*     background-repeat: repeat-y;
+    background-position: center bottom; */
+    background: #f00 url('clock.png') repeat-x center bottom ;
+    background-size: 100px 100px;
+    
 }
