@@ -1,0 +1,35 @@
+#titulo{
+    color: tomato;
+}
+p.especial{
+    color: mediumseagreen;
+}
+p.texto{
+    color: slateblue;
+}
+div p {
+    color: aquamarine;
+}
+
+div h2, div h3{
+    color: brown;
+}
+
+*{
+    font-size: 24px;
+    color: black;
+}
+
+/*esto es un comentario*/
+/*
+.color{
+    color: #ff0000;
+}
+.color{
+    color: rgb(0, 0, 255);
+}
+*/
+
+.color{
+    border: 3px black dotted;
+}
